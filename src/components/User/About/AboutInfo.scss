@@ -1,0 +1,95 @@
+
+@media (min-width:865px){
+    .ftco-about-info {
+        padding: 10px 0 0 0;
+        &-text {
+          position: relative;
+          right: 25%;
+          top: 10%;
+          margin-left: 2.5%;
+          width: 95%;
+          height: 500px;
+          background: rgba(0, 0, 0, 0.5);
+          padding: 0 10% 0 15%;
+          & span {
+            top: 39px;
+            position: relative;
+            font-family: "Great Vibes", cursive;
+            font-size: 60px;
+            color: #c49b63;
+          }
+          & h1 {
+              font-size: 50px;
+            letter-spacing: 2px;
+            color: white;
+          }
+          & p {
+            text-align: center;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #808080;
+          }
+        }
+      }
+}
+
+@media (min-width: 741px) and (max-width: 865px) {
+  .ftco-about-info {
+    padding: 10px 0 0 0;
+    &-text {
+      position: relative;
+      right: 25%;
+      top: 10%;
+      margin-left: 2.5%;
+      width: 95%;
+      height: 500px;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 0 10% 0 15%;
+      & span {
+        top: 39px;
+        position: relative;
+        font-family: "Great Vibes", cursive;
+        font-size: 50px;
+        color: #c49b63;
+      }
+      & h1 {
+        letter-spacing: 2px;
+        color: white;
+      }
+      & p {
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #808080;
+      }
+    }
+  }
+}
+
+@media (max-width: 740px) {
+  .ftco-about-info {
+    padding: 10px 0 0 0;
+    &-text {
+      margin-left: 2.5%;
+      width: 95%;
+      height: 500px;
+      background-color: transparent;
+      & span {
+        top: 35px;
+        position: relative;
+        font-family: "Great Vibes", cursive;
+        font-size: 50px;
+        color: #c49b63;
+      }
+      & h1 {
+       
+        color: white;
+      }
+      & p {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #808080;
+      }
+    }
+  }
+}

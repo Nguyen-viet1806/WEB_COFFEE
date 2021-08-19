@@ -1,0 +1,52 @@
+.ftco-about {
+  width: 100%;
+  height: 710px;
+  max-width: 100%;
+  &-img {
+    background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xabout.jpg.pagespeed.ic.1CZ91rANlw.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    image-rendering: pixelated;
+    width: 100%;
+    height: 710px;
+    max-width: 100%;
+  }
+  &-info {
+    width: 100%;
+    height: 700px;
+    max-width: 100%;
+    background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xbg_4.jpg.pagespeed.ic.jZaRfvTz2Z.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: left;
+  }
+}
+
+@media (max-width: 740px) {
+  .ftco-about {
+    width: 100%;
+    height: 865px;
+    max-width: 100%;
+    &-img {
+      background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xabout.jpg.pagespeed.ic.1CZ91rANlw.webp");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      image-rendering: pixelated;
+      width: 100%;
+      height: 300px;
+      max-width: 100%;
+      background-color: orangered;
+    }
+    &-info {
+      width: 100%;
+      height: 564px;
+      max-width: 100%;
+      background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xbg_4.jpg.pagespeed.ic.jZaRfvTz2Z.webp");
+      background-repeat: no-repeat;
+      background-position: center center;
+      text-align: left;
+    }
+  }
+}

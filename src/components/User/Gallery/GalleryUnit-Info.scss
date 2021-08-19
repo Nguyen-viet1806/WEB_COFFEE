@@ -1,0 +1,53 @@
+.ftco-gallery-info {
+    padding: 0 60px 85px 60px;
+    text-align: center;
+    & span {
+      top: 35px;
+      position: relative;
+      font-family: "Great Vibes", cursive;
+      font-size: 50px;
+      color: #c49b63;
+    }
+    & h1 {
+      color: white;
+    }
+    & p {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #808080;
+    }
+  }
+  
+  .ftco-gallery-product-unit-info {
+    padding-top: 24px;
+    text-align: center;
+    color: gray;
+    & h3 {
+      font-size: 18px;
+      text-transform: uppercase;
+      line-height: 1.4;
+      font-weight: 400;
+ 
+      & a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+    & p {
+      margin-top: 0;
+      margin-bottom: 16px;
+    }
+    & .add {
+      text-decoration: none;
+      font-size: 12px;
+      padding: 6px 12px;
+      border: 1px solid #c49b63;
+      background: transparent;
+      color: #c49b63;
+      &:hover{
+        background-color:#c49b63 ;
+        color: #fff;
+      }
+    }
+  }
+  

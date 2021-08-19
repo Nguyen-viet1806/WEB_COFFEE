@@ -1,0 +1,144 @@
+.ftco-menu {
+  width: 100%;
+  background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xbg_4.jpg.pagespeed.ic.jZaRfvTz2Z.webp");
+  background-position: center center;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  padding-left: 9%;
+  &-title {
+    width: 90%;
+  }
+  &-info {
+    margin-top: 60px;
+    width: 90%;
+  }
+  &-product {
+    margin-top: 35px;
+    width: 90%;
+    &-unit {
+      height: 565px;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      &-img {
+        height: 270px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        image-rendering: pixelated;
+      }
+      &-info {
+        height: 295px;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        & h3 {
+          font-size: 18px;
+          text-transform: uppercase;
+          line-height: 1.4;
+          color: #fff;
+          font-weight: 400;
+          font-family: "Josefin Sans", Arial, sans-serif;
+        }
+        & p {
+          line-height: 1.8;
+          color: gray;
+          & button {
+              cursor: pointer;
+            font-size: 12px;
+            padding: 6px 12px;
+            border: 1px solid #c49b63;
+            background: transparent;
+            color: #c49b63;
+            &:hover {
+              background-color: #c49b63;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 740px) and (max-width: 1024px) {
+  .ftco-menu {
+    width: 100%;
+    background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xbg_4.jpg.pagespeed.ic.jZaRfvTz2Z.webp");
+    background-position: center center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-left: 9%;
+    &-title {
+      width: 90%;
+    }
+    &-info {
+      margin-top: 60px;
+      width: 90%;
+    }
+    &-product {
+      margin-top: 35px;
+      width: 90%;
+
+      &-unit {
+        height: 565px;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        &-img {
+          height: 270px;
+          width: 100%;
+          background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xdish-1.jpg.pagespeed.ic._eupGZGDhZ.webp");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          image-rendering: pixelated;
+        }
+        &-info {
+          height: 295px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 740px) {
+  .ftco-menu {
+    width: 100%;
+    background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xbg_4.jpg.pagespeed.ic.jZaRfvTz2Z.webp");
+    background-position: center center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-left: 9%;
+    &-title {
+      width: 90%;
+    }
+    &-info {
+      margin-top: 60px;
+      width: 90%;
+    }
+    &-product {
+      margin-top: 35px;
+      width: 90%;
+
+      &-unit {
+        height: 565px;
+        width: 100%;
+        &-img {
+          height: 270px;
+          width: 100%;
+          background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xdish-1.jpg.pagespeed.ic._eupGZGDhZ.webp");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          image-rendering: pixelated;
+        }
+        &-info {
+          height: 295px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+.ftco-footer {
+  width: 100%;
+  background-color: #120f0f;
+  padding-top: 120px;
+  padding-right: 10px;
+  & hr{
+      margin-top: 50px;
+      height: 1px;
+      width: 100%;
+      border: 1px dotted white;
+  }
+  &-info {
+    margin-top: 5px;
+    width: 100%;
+    color: white;
+    padding: 0 15px 0 25px;
+    h3 {
+        margin-top: 20px;
+      margin-bottom: 60px;
+      letter-spacing: 1px;
+      font-weight: 480;
+    
+    }
+    p {
+        margin-bottom: 0;
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 17px;
+      font-weight: 420;
+      
+      line-height: 1.5;
+    }
+    &-logo {
+      display: flex;
+      & .logo {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 60px;
+        background-color: #1e1b1b;
+        margin: 0 5px 0 5px;
+      }
+      & a {
+        font-size: 30px;
+        text-decoration: none;
+        color: #fefefe;
+      }
+    }
+    &-recent {
+      display: flex;
+      width: 100%;
+      &-img {
+        width: 105px;
+        height: 80px;
+      }
+      &-text {
+        width: 100%;
+        margin-left: 15px;
+        & span {
+          font-weight: 400;
+          letter-spacing: 1px;
+          color: rgba(255, 255, 255, 0.9);
+          cursor: pointer;
+          transition: 0.3s all ease;
+          &:hover {
+            color: #c49b63;
+          }
+        }
+        & small {
+          margin-top: 15px;
+          display: block;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 740px) {
+  .ftco-footer {
+    width: 100%;
+    padding-top: 20px;
+    &-info {
+      margin-top: 5px;
+      width: 100%;
+    }
+  }
+}

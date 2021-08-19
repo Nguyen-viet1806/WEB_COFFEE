@@ -1,0 +1,45 @@
+.ftco-statistical-unit {
+  & h1 {
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #c49b63;
+  }
+  & h4 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+  }
+  &-box {
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    margin: 0 auto;
+    transform: rotate(0);
+    transition: transform linear 0.2s;
+    border: 1px solid #c49b63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c49b63;
+    animation: animationBox linear 1s infinite;
+    &:hover {
+      background-color: #c49b63;
+      transform: rotate(135deg);
+      & img:hover {
+        transform: rotate(-135deg);
+      }
+    }
+  }
+}
+
+@keyframes animationBox {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: #c39a63;
+  }
+}

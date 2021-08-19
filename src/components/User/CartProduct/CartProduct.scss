@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+.cartProduct {
+  background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/bg_4.jpg.webp");
+  background-size: cover;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  & table {
+    background-color: transparent;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    text-align: center;
+    max-width: 100%;
+    border-collapse: collapse;
+    display: table;
+    text-indent: initial;
+    & .cartProduct-title {
+      height: 70px;
+      background-color: #c39a63;
+    }
+    & .cartProduct-into {
+      height: 180px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+      & td {
+        & button {
+          width: 30px;
+          height: 30px;
+          font-size: 18px;
+          font-weight: bold;
+          color: #BEBEBE;
+          background-color: transparent;
+          border: 1px solid rgba(255, 255, 255, 0.1) !important;
+        }
+        & p {
+          margin: 0;
+          color: grey;
+        }
+        & input {
+          border: 1px solid rgba(255, 255, 255, 0.1) !important;
+          background-color: transparent;
+          outline: 0;
+          width: 200px;
+          height: 55px;
+          font-size: 18px;
+          text-align: center;
+          color: #c39a63;
+          input::-webkit-outer-spin-button,
+          &::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+          }
+          &[type="number"] {
+            -moz-appearance: textfield;
+          }
+        }
+      }
+    }
+  }
+}

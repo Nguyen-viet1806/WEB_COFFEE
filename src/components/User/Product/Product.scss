@@ -1,0 +1,203 @@
+@media (min-width: 1025px) {
+  .ftco-product {
+    width: 100%;
+    height: 665px;
+    background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xbg_4.jpg.pagespeed.ic.jZaRfvTz2Z.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 665px;
+    background-position: center center;
+    &-info {
+      width: 100%;
+      height: 665px;
+      background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xbg_4.jpg.pagespeed.ic.jZaRfvTz2Z.webp");
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+
+    &-unit {
+      margin-top: 100px;
+      width: 100%;
+      height: 200px;
+      background-color: transparent;
+      &-1 {
+        position: relative;
+        background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xmenu-1.jpg.pagespeed.ic.YVtTcI36Lp.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        image-rendering: pixelated;
+        width: 75%;
+        height: 200px;
+      }
+      &-2 {
+        position: relative;
+        top: 12%;
+        right: 9%;
+        background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xmenu-2.jpg.pagespeed.ic.bRSoqTHrVT.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        image-rendering: pixelated;
+        width: 75%;
+        height: 200px;
+      }
+      &-3 {
+        position: relative;
+        top: -23%;
+        background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xmenu-3.jpg.pagespeed.ic.Wlm0mCFmfW.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        image-rendering: pixelated;
+        width: 75%;
+        height: 200px;
+      }
+      &-4 {
+        position: relative;
+        top: -10%;
+        right: 9%;
+        background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xmenu-4.jpg.pagespeed.ic.rlVb98rr_S.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        image-rendering: pixelated;
+        width: 75%;
+        height: 200px;
+      }
+    }
+  }
+}
+
+@media (min-width: 740px) and (max-width: 1024px) {
+  .ftco-product {
+    width: 100%;
+    height: 665px;
+    background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xbg_4.jpg.pagespeed.ic.jZaRfvTz2Z.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 665px;
+    background-position: center center;
+    &-info {
+      width: 100%;
+      height: 665px;
+      background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xbg_4.jpg.pagespeed.ic.jZaRfvTz2Z.webp");
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+
+    &-unit {
+      margin-top: 100px;
+
+      width: 100%;
+      height: 200px;
+      background-color: transparent;
+      &-1 {
+        position: relative;
+        background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xmenu-1.jpg.pagespeed.ic.YVtTcI36Lp.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        image-rendering: pixelated;
+        width: 75%;
+        height: 200px;
+      }
+      &-2 {
+        position: relative;
+        right: 9%;
+        background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xmenu-2.jpg.pagespeed.ic.bRSoqTHrVT.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        image-rendering: pixelated;
+        width: 75%;
+        height: 200px;
+      }
+      &-3 {
+        position: relative;
+        top: -35%;
+        background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xmenu-3.jpg.pagespeed.ic.Wlm0mCFmfW.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        image-rendering: pixelated;
+        width: 75%;
+        height: 200px;
+      }
+      &-4 {
+        position: relative;
+        top: -35%;
+        right: 9%;
+        background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xmenu-4.jpg.pagespeed.ic.rlVb98rr_S.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        image-rendering: pixelated;
+        width: 75%;
+        height: 200px;
+      }
+    }
+  }
+}
+
+@media (max-width: 740px) {
+    .ftco-product {
+        width: 100%;
+        height: 1445px;
+        background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xbg_4.jpg.pagespeed.ic.jZaRfvTz2Z.webp");
+        background-repeat: no-repeat;
+        background-size: 100% 1445px;
+        background-position: center center;
+        &-info {
+          width: 100%;
+          height: 465px;
+          background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xbg_4.jpg.pagespeed.ic.jZaRfvTz2Z.webp");
+          background-repeat: no-repeat;
+          background-position: center center;
+        }
+    
+        &-unit {
+          margin-top: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 205px;
+          background-color: transparent;
+          &-1 {
+            background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xmenu-1.jpg.pagespeed.ic.YVtTcI36Lp.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            image-rendering: pixelated;
+            width: 95%;
+            height: 205px;
+          }
+          &-2 {
+            background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xmenu-2.jpg.pagespeed.ic.bRSoqTHrVT.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            image-rendering: pixelated;
+            width: 95%;
+            height: 205px;
+          }
+          &-3 {
+            background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xmenu-3.jpg.pagespeed.ic.Wlm0mCFmfW.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            image-rendering: pixelated;
+            width: 95%;
+            height: 205px;
+          }
+          &-4 {
+            background-image: url("https://preview.colorlib.com/theme/coffeeblend/images/xmenu-4.jpg.pagespeed.ic.rlVb98rr_S.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            image-rendering: pixelated;
+            width: 95%;
+            height: 205px;
+          }
+        }
+      }
+}

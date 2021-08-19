@@ -1,0 +1,19 @@
+.ftco-service-unit {
+  &-icon {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #674c27;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & i {
+      font-size: 80px;
+    }
+  }
+  &-info {
+    padding: 0 8% 0 8%;
+    text-align: center;
+    margin-top: 50px;
+  }
+}
